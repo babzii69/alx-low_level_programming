@@ -1,8 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 
-void rev_string(char *);
-
 /**
  * main - check the code
  *
@@ -10,7 +8,7 @@ void rev_string(char *);
  */
 int main(void)
 {
-    char s[11] = "Holberton!";
+    char s[10] = "My School";
 
     printf("%s\n", s);
     rev_string(s);
